@@ -24,6 +24,6 @@ for line in lines:
     powersum += power
     if r <= 12 and g <=13 and b <=14:
         sum += int(gameno)
-        print(gameno, sum, )
+        print(gameno, sum, line)
 
 print("Part1:",sum, "Part2:",powersum)
