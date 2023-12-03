@@ -1,5 +1,3 @@
-import re
-
 with open("aoc2023/data/day2.txt", "r") as f:
     lines = f.readlines()
 
