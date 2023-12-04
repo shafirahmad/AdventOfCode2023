@@ -76,13 +76,13 @@ for value in values:
 
 p2sum=0
 # Find all potential gears!
-asterisks = []
-for row in range(1,numchars-1): #[33,34,35,36,37]: 
-    for col in range(1,numchars):
-        d = mydata[row][col]
-        if d =="*":
-            asterisks.append([row,col])
-print(asterisks)
+# asterisks = []
+# for row in range(1,numchars-1): #[33,34,35,36,37]: 
+#     for col in range(1,numchars):
+#         d = mydata[row][col]
+#         if d =="*":
+#             asterisks.append([row,col])
+# print(asterisks)
 
 values = list()
 geardict = {}
@@ -125,6 +125,5 @@ for row in range(1,numchars-1): #[33,34,35,36,37]:
     #print(rowvalues)
         #if col==1 or col==140: print(d, end = "")
 print(geardict)
-
 
 print("Part1:",p1sum, "Part2:",p2sum)
